@@ -1,0 +1,23 @@
+.someClass {
+
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.greeting {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.general {
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    height: 25px;
+}

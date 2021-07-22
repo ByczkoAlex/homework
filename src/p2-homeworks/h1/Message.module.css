@@ -1,0 +1,44 @@
+.message {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    padding-left: 53px;
+}
+
+.description {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.96);
+    border-radius: 5px 5px 5px 0;
+    min-width: 170px;
+}
+
+.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0 ,rgba(0, 0, 0, 0) 15px, rgba(0, 0, 0, 0.96) 0 );
+}
+
+.author {
+    font-size: 17px;
+    color: #800f80;
+    font-weight: bold;
+    margin: 0;
+}
+
+.comment_text {
+    color: #fff;
+    margin: o;
+}
+
+.time {
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    margin: 0;
+}
+
+.avatar {
+    width: 50px;
+    border-radius: 25px;
+}
