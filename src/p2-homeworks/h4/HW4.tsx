@@ -38,21 +38,28 @@ function HW4() {
                 />
 
                 {/*----------------------------------------------------*/}
+                <div className={s.buttonsBlock}>
+                    <div>
+                        <SuperButton>
+                            default
+                        </SuperButton>
+                    </div>
 
-                <SuperButton>
-                    default
-                </SuperButton>
+                    <div>
+                        <SuperButton
+                            red // пропсу с булевым значением не обязательно указывать true
+                            onClick={showAlert}
+                        >
+                            delete {/*// название кнопки попадёт в children*/}
+                        </SuperButton>
+                    </div>
 
-                <SuperButton
-                    red // пропсу с булевым значением не обязательно указывать true
-                    onClick={showAlert}
-                >
-                    delete {/*// название кнопки попадёт в children*/}
-                </SuperButton>
-
-                <SuperButton disabled>
-                    disabled
-                </SuperButton>
+                    <div>
+                        <SuperButton disabled>
+                            disabled
+                        </SuperButton>
+                    </div>
+                </div>
 
                 {/*----------------------------------------------------*/}
 
