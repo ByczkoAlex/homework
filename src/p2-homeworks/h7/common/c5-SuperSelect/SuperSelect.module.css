@@ -1,0 +1,10 @@
+.select {
+    appearance: none;
+    width: 90px;
+    height: 20px;
+    background-color: #C49B66;
+}
+
+.active {
+    background-color:rgba(57,57,57,0.61) ;
+}

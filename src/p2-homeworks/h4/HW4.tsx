@@ -40,8 +40,8 @@ function HW4() {
                 {/*----------------------------------------------------*/}
                 <div className={s.buttonsBlock}>
                     <div>
-                        <SuperButton>
-                            default
+                        <SuperButton onClick={showAlert}>
+                            Default
                         </SuperButton>
                     </div>
 
