@@ -21,6 +21,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
         if (e.currentTarget.value) {
             setName(Name.trim())
             setError('')
+            setName('')
         } else {
             setName('')
             setError('field is required')
@@ -30,7 +31,6 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     const addUser = () => {
         addUserCallback(name)
         alert('Hello ' + name);
-        setName('')
     }
 
     const totalUsers = users.length

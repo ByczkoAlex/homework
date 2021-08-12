@@ -25,7 +25,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                        className={inputClass}
                        onBlur={setNameCallback}
                 />
-                <SuperButton>add</SuperButton>
+                <SuperButton onClick={addUser}>add</SuperButton>
                 <span>{totalUsers}</span>
             </div>
             <div>
